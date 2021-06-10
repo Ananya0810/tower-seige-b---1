@@ -16,7 +16,7 @@ constructor(a,b){
 display(){
  if(this.sling.bodyA){
         strokeWeight(3)
-        Stroke("ash")
+        stroke("ash")
         line(this.sling.bodyA.position.x,this.sling.bodyA.position.y,
             this.sling.pointB.x,this.sling.pointB.y)
         }
